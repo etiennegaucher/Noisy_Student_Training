@@ -1,6 +1,6 @@
 # Implementation of the Noisy Student Training method on MNIST dataset #
 
-This project aims to implement the Noisy Student Training method on MNIST dataset using PyTorch. Although all the 50 000 images of the MNIST training dataset have labels, we assume that only 100 of them are labeled and we treat the other ones as unlabeled images. When adding dropout and data augmentation during the training of the student model, Noisy Student Training improves the accuracy by over 10 %.
+This project aims to implement the Noisy Student Training method on MNIST dataset using PyTorch. Although all the images of the MNIST training dataset have labels, we assume that only 100 of them are labeled and we treat the other ones as unlabeled images. When adding dropout and data augmentation during the training of the student model, Noisy Student Training improves the accuracy by over 10 %.
 
 Noisy Student Training is a semi-supervised learning method that has 3 main steps:
 1. train a teacher model on the labeled images and use it to generate pseudo labels for unlabeled images
