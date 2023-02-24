@@ -9,7 +9,7 @@ Noisy Student Training is a semi-supervised learning method that has 3 main step
 
 During the training of the student model, we inject noise such as dropout and data augmentation.
 
-This folder contains the following files:
+This repository contains the following files:
 - Article.pdf: paper presenting the method, also available here: https://arxiv.org/pdf/1911.04252v4.pdf
 - Noisy_Student_Training.ipynb: implementation of the method in Python using PyTorch
 - Report.pdf: report of my work (in French)
